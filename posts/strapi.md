@@ -15,17 +15,17 @@ Strapi sendiri adalah headless CMS yang bisa membuat kemungkinan-kemungkinan unt
 
 Fitur-fitur utama Strapi yang akan memudahkan kita di dalam mengelola CMS website:
 
-1.           Laman admin yang sederhana
+1. Laman admin yang sederhana
 
-2.           Content-type builder
+2. Content-type builder
 
-3.           Penyimpanan media dan database yang fleksibel
+3. Penyimpanan media dan database yang fleksibel
 
-4.           Pilihan antara REST API (default) atau GraphQL
+4. Pilihan antara REST API (default) atau GraphQL
 
-5.           Authenticated request
+5. Authenticated request
 
-6.           Self hosted
+6. Self hosted
 
 Laman admin Strapi yang sederhana
 
@@ -60,4 +60,4 @@ Melalui fitur-fitur yang telah dipaparkan di atas, Strapi semakin menguatkan pos
 
 Berkat fitur-fiturnya, Strapi kini merupakan CMS dengan nama besar yang dapat membantu kita dalam menyusun konten-konten di dalam website. Pengelolaan konten website pun dapat menjadi lebih optimal dengan hadirnya Strapi.
 
-Referensi **_roketin.com_** writed by RakaRmp
+Referensi Dari **_roketin.com_** writed by RakaRmp

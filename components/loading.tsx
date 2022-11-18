@@ -1,5 +1,3 @@
-import styles from './layout.module.css'
-
 export default function loading() {
     return (
         <div className="formLoader">

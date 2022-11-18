@@ -24,7 +24,7 @@ export default function Home({
         <p>RakaRmp - FrontEnd Dev</p>
         <p>
           (Personal Blog Ditulis Di Atas Markdown {' '}/
-          <a href="https://github.com/grizz12"> Github</a>.)
+          <a href="https://my-profiledev.netlify.app/"> About</a>.)
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>

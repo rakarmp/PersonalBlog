@@ -44,9 +44,9 @@ Compiler TypeScript akan memeriksa pengetikan (akan ditampilkan peringatan pada 
 
 ```
 var name: string;
-name = 2; // type error, assign a number to a string type variable
+name = 2;
 function foo(value: number) {}
-foo(''); // type error, use a number as a string type parameter
+foo('');
 interface Bar {
     setName: (name: string) => void;
     getName: () => string;
@@ -55,7 +55,7 @@ var bar: Bar = {
     getName: function() {
         return 'myName';
     }
-} // type error, setName function is missing in the object assigned to bar.
+}
 ```
 
 ES6 Feature Support

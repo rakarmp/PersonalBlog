@@ -1,6 +1,6 @@
 ---
 title: "Dua Bentuk Pre-rendering Di Next JS"
-date: "2022-11-16"
+date: "2022-11-18"
 ---
 
 Next.js memiliki dua bentuk pra-rendering: **Generasi Statis** dan **Rendering Sisi Server**. Perbedaannya terletak pada **ketika** menghasilkan HTML untuk sebuah halaman.

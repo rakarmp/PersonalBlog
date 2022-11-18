@@ -22,19 +22,19 @@ Class dan Module Support
 
 Keywords seperti class, interface, extends dan module tersedia pada TypeScript. Kamu bisa mendefinisikan sebuah class seperti berikut:
 
-```
+```ts
 // class define in TypeScript
 class VirtualPageTracker extends Tracker {
-    private virtualPageName: string = '';
-    constructor(name) {
-        super(name);
-    }
-    getName(): void {
-        return this.virtualPageName;
-    }
-    static getTrackerName(): string {
-        return  'VirtualPageTracker';
-    }
+  private virtualPageName: string = "";
+  constructor(name) {
+    super(name);
+  }
+  getName(): void {
+    return this.virtualPageName;
+  }
+  static getTrackerName(): string {
+    return "VirtualPageTracker";
+  }
 }
 ```
 
@@ -42,42 +42,42 @@ Static Type-checking
 
 Compiler TypeScript akan memeriksa pengetikan (akan ditampilkan peringatan pada pengetikan yang error pada saat waktu compile).
 
-```
+```ts
 var name: string;
 name = 2;
 function foo(value: number) {}
-foo('');
+foo("");
 interface Bar {
-    setName: (name: string) => void;
-    getName: () => string;
+  setName: (name: string) => void;
+  getName: () => string;
 }
 var bar: Bar = {
-    getName: function() {
-        return 'myName';
-    }
-}
+  getName: function () {
+    return "myName";
+  },
+};
 ```
 
 ES6 Feature Support
 
 Ini adalah versi terbaru dari ECMAScript Language Spesification dengan fitur bahasa yang lebih. Dengan TypeScript, anda dapat memulai menggunakan banyak fitur ES6 meskipun mungkin tidak support pada target browser anda. Dibawah ini beberapa fitur yang sangat berguna seperti :
 
-```
+```ts
 // for..of loops
-var arr = ['a', 'b', 'c'];
+var arr = ["a", "b", "c"];
 for (let item of arr) {
-    console.log(item);
+  console.log(item);
 }
 ```
 
 Dikompilasi Menjadi
 
-```
+```ts
 // for..of loops
-var arr = ['a', 'b', 'c'];
+var arr = ["a", "b", "c"];
 for (var _i = 0; _i < arr.length; _i++) {
-    var item = arr[_i];
-    console.log(item);
+  var item = arr[_i];
+  console.log(item);
 }
 ```
 

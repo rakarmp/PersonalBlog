@@ -4,7 +4,7 @@ date: "2022-11-18"
 ---
 
 Hallo semuanya selamat malam, perkenalkan saya Raka Abdi Reza Maulana Putra Biasa Dipanggil Raka
-Atau Gimana Kamu Aja Terserah :smile:, Saya seorang pelajar di SMK ASSALAAM BANDUNG dengan jurusan
+Atau Gimana Kamu Aja Terserah hehe, Saya seorang pelajar di SMK ASSALAAM BANDUNG dengan jurusan
 RPL atau lebih tepatnya Rekayasa Perangkat Lunak, lahir di bandung tanggal 12 april 2005, Banyak orang
 di lingkungan saya memandang saya seorang yang nakal terus kalo dalam bahasa sundanya bangor hehehe...
 tapi saya terima itu semua sadar diri lah wkwkwk, tapi dibalik itu semua saya punya kebiasaan yaitu

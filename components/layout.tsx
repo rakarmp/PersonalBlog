@@ -20,7 +20,7 @@ export default function Layout({
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Belajar Membuat Website Dengan Next.js Menggunakan TypeScript"
+          content="Next Js Blog"
         />
         <meta
           property="og:image"

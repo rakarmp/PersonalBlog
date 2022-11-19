@@ -41,6 +41,8 @@ export default function Layout({
               height={144}
               width={144}
               alt={name}
+              blurDataURL="data:..."
+              placeholder="blur"
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>

@@ -25,8 +25,10 @@ export default function Home({
         <p>Hanya Orang Biasa Ga Lebih : )</p>
         <p className={utilStylesScss.type}>Kata-kata Untuk Hari Ini</p>
         <p className={utilStylesScss.type}>
-          Penyesalan Terbesar Dalam Hidup Adalah Menjadi Apa Yang Orang Lain
-          Inginkan, Daripada Menjadi Diri S-endiri.
+          Penyesalan Terbesar Dalam <br />
+          Hidup Adalah Menjadi Apa <br />
+          Yang Orang Lain Inginkan, <br />
+          Daripada Menjadi Diri Sendiri.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>

@@ -1,28 +1,25 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
-import Link from 'next/link'
-import Footer from './footer'
+import Head from "next/head";
+import Image from "next/image";
+import styles from "./layout.module.css";
+import utilStyles from "../styles/utils.module.css";
+import Link from "next/link";
+import Footer from "./footer";
 
-const name = 'RakaRmp'
-export const siteTitle = 'Personal Blog'
+const name = "RakaRmp";
+export const siteTitle = "Personal Blog";
 
 export default function Layout({
   children,
-  home
+  home,
 }: {
-  children: React.ReactNode
-  home?: boolean
+  children: React.ReactNode;
+  home?: boolean;
 }) {
   return (
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Next Js Blog"
-        />
+        <meta name="description" content="Next Js Blog" />
         <meta
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(
@@ -69,11 +66,18 @@ export default function Layout({
       </header>
       <main>{children}</main>
       {!home && (
+        // <div className={styles.backToHome}>
+        //   <Link href="/">← Kembali</Link>
+        // </div>
         <div className={styles.backToHome}>
-          <Link href="/">← Kembali</Link>
+          <button className={styles.button}>
+            <span className={styles.buttonTop}>
+              <Link href="/">← Kembali</Link>
+            </span>
+          </button>
         </div>
       )}
       <Footer />
     </div>
-  )
+  );
 }

@@ -8,10 +8,6 @@ Hallo Kamukamu Kali Ini Kita Belajar Bareng Yuk,Kita Akan Membuat UI Flutter Kay
 Pertama Kamu Buat Dulu Project Flutter Nya Dan Kasih Nama mmmm Bebas Aja ...
 
 ```ts
-// Kamukamu Bisa Menulis Seperti Ini Diterminal
-// Untuk app1 Itu Nama Folder Yang Didalamnya Akan Diinstall Kebutuhan Flutter
-// app1 Bisa Diganti Dengan Nama Apapun Dan Disarankan Jangan Ada Huruf Besar
-
 flutter create app1
 ```
 

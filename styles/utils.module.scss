@@ -2,9 +2,9 @@ $width: 30  ;
 $text: #000;
 $bg: #fff;
 $cursor-speed: 22; // characters per second
-$duration: $width / $cursor-speed * 1s;
+$duration: $width / $cursor-speed * 0.1s;
 $cursor-duration: $duration / $width;
-$cursor-wait-duration: 0.8s;
+$cursor-wait-duration: 0.1s;
 $cursor-wait-iteration: 2;
 $paragraph-lengths: (35, 181, 120, 215);
 

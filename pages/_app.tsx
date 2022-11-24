@@ -1,8 +1,8 @@
 import "../styles/global.css";
 import { AppProps } from "next/app";
-import { useEffect, useState } from "react";
+import { lazy, useEffect, useState } from "react";
 import { Roboto } from "@next/font/google";
-import Loading from "../components/loading";
+const Loading = lazy(() => import("../components/loading"));
 
 const roboto = Roboto({
   weight: "400",

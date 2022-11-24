@@ -70,11 +70,12 @@ export default function Layout({
         //   <Link href="/">← Kembali</Link>
         // </div>
         <div className={styles.backToHome}>
-          <button className={styles.button}>
-            <span className={styles.buttonTop}>
-              <Link href="/">← Kembali</Link>
-            </span>
-          </button>
+          <a className={styles.button} href="/">
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>← Kembali
+          </a>
         </div>
       )}
       <Footer />

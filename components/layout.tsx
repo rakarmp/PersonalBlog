@@ -5,7 +5,7 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import Footer from "./footer";
 
-const name = "RakaRmp";
+const name = "TrustYou";
 export const siteTitle = "Personal Blog";
 
 export default function Layout({

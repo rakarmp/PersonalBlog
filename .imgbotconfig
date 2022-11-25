@@ -1,0 +1,11 @@
+{
+    "schedule": "weekly",
+    "ignoredFiles": [
+        "public/images/*"
+    ],
+    "aggressiveCompression": "true",
+    "compressWiki": "true",
+    "minKBReduced": 500,
+    "prTitle" : "Personal optimization",        
+    "prBody" : "Text before optimization details {optimization_details} Text after optimization details"
+}

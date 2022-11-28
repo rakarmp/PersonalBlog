@@ -52,7 +52,7 @@ export default function Layout({
                 src="/images/profile.jpg"
                 className={utilStyles.borderCircle}
                 height={108}
-                width={108}
+                width={400}
                 alt={name}
               />
             </Link>
